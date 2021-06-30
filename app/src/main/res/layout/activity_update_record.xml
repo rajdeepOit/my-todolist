@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".AddRecordActivity">
+
+
+    <TextView
+        android:id="@+id/tasksUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update user"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/taskstitleupdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="task" />
+
+    <EditText
+        android:id="@+id/taskDetailsUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:lines="8"
+        android:minLines="2"
+        android:maxLines="10"
+        android:gravity="top|left"
+        android:scrollbars="vertical"
+        android:hint="TasksDetails" />
+
+    <Button
+        android:id="@+id/updateUserButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update User"/>
+
+</LinearLayout>
